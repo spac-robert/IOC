@@ -1,0 +1,46 @@
+<div class="info">
+  <div id="title">PUZZLE</div>
+</div>
+
+<!--<div id="images">-->
+<!--  <div id="drag4" draggable="true" ondragstart="drag(event)"></div>-->
+<!--  <div id="drag5" draggable="true" ondragstart="drag(event)"></div>-->
+<!--  <div id="drag6" draggable="true" ondragstart="drag(event)"></div>-->
+<!--  <div id="drag7" draggable="true" ondragstart="drag(event)"></div>-->
+<!--  <div id="drag8" draggable="true" ondragstart="drag(event)"></div>-->
+<!--  <div id="drag9" draggable="true" ondragstart="drag(event)"></div>-->
+<!--  <div id="drag10" draggable="true" ondragstart="drag(event)"></div>-->
+<!--  <div id="drag11" draggable="true" ondragstart="drag(event)"></div>-->
+<!--  <div id="drag12" draggable="true" ondragstart="drag(event)"></div>-->
+<!--</div>-->
+<script type="text/javascript">
+  function allowDrop($ev) {
+    $ev.preventDefault();
+  }
+
+  function drag($ev) {
+    $ev.dataTransfer.setData("text", $ev.target.id);
+  }
+
+  function drop($ev) {
+    $ev.preventDefault();
+    var data = $ev.dataTransfer.getData("text");
+    $ev.target.appendChild(document.getElementById(data));
+  }
+</script>
+<div id="images">
+  <img src="./assets/img/bicu-cut/bicu-split1-top-left.png" draggable="true" ondragstart="drag($event)">
+  <img src="./assets/img/bicu-cut/bicu-split-bott-right.png" draggable="true" ondragstart="drag($event)">
+  <img src="./assets/img/bicu-cut/bicu-split-top-right.png" draggable="true" ondragstart="drag($event)">
+  <img src="./assets/img/bicu-cut/bicu-split1-bott-lrft.png" draggable="true" ondragstart="drag($event)">
+</div>
+
+<div id="text">
+  <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</div>
+
+<div class="info"><p>Congratulations if you finished!
+  <p></div>
