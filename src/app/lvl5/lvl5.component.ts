@@ -23,7 +23,7 @@ export class Lvl5Component implements OnInit {
       case 1:
         audio.src = '../assets/sounds/siu.mp3'
         setTimeout(() => {
-          this.router.navigate(['/lvl-5'])
+          this.router.navigate(['/puzzle'])
         }, 3500)
 
     }

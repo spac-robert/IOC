@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
     audio.src = '../assets/sounds/music.mp3'
     audio.load()
     //TODO de scos ca sa cante
-    //audio.play();
+    audio.play();
   }
 
   onPlay() {

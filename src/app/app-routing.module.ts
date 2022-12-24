@@ -8,7 +8,6 @@ import {Lvl3Component} from "./lvl3/lvl3.component";
 import {Lvl4Component} from "./lvl4/lvl4.component";
 import {Lvl5Component} from "./lvl5/lvl5.component";
 
-//const routes: Routes = [{path: '/play', component: PlayComponent}];
 const routes: Routes = [{path: 'play', component: PlayComponent},
   {path: '', component: HomeComponent},
   {path: 'lvl-1', component: Lvl1Component},
