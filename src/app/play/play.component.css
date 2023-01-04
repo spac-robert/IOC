@@ -1,5 +1,7 @@
-.video-responsive{
-  height: 900px;
+.video-responsive {
+  height: 500px;
+  margin-left: 240px;
+  margin-top: auto;
   overflow: hidden;
-  margin: 0;
+  border-radius: 2rem;
 }

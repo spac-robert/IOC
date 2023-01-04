@@ -6,3 +6,15 @@ html{
   color: black;
   text-align: center;
 }
+img{
+  width: 250px;
+  height: 300px;
+  border-radius: 1rem;
+}
+button{
+  border-radius: 1rem;
+}
+h1{
+  font: italic bold 50px Georgia, Serif;
+  text-shadow: -4px 3px 0 white;
+}
