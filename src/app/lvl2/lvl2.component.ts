@@ -7,7 +7,7 @@ import {Router} from "@angular/router";
   styleUrls: ['./lvl2.component.css']
 })
 export class Lvl2Component implements OnInit {
-  private number: number = -1;
+  number: number = -1;
 
   constructor(private router: Router) {
   }

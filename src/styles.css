@@ -18,3 +18,13 @@ h1{
   font: italic bold 50px Georgia, Serif;
   text-shadow: -4px 3px 0 white;
 }
+h3{
+  margin-left: 600px;
+  font: italic bold 30px Georgia, Serif;
+  text-shadow: -4px 3px 0 green;
+}
+h5{
+  margin-left: 620px;
+  font-size: 50px;
+  color: red;
+}
