@@ -1,18 +1,19 @@
-.img-responsive {
-  width: 1900px;
-  height: 850px;
-  overflow: hidden;
-  margin: 0;
-}
-
-div{
+.container{
   justify-content: center;
   align-items: center;
-  display: flex;
-
 }
+.img-responsive {
+  width: 900px;
+  height: 500px;
+  margin-left: 240px;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
 /* CSS */
 .button-56 {
+  margin-top: 20px;
+  margin-left: 650px;
   align-items: center;
   background-color: #fee6e3;
   border: 2px solid #111;
@@ -47,7 +48,7 @@ div{
   position: absolute;
   top: -2px;
   transform: translate(8px, 8px);
-  transition: transform .2s ease-out;
+  transition: transform 0.2s ease-out;
   z-index: -1;
 }
 
@@ -69,3 +70,4 @@ div{
     padding: 0 40px;
   }
 }
+

@@ -9,7 +9,7 @@ import {Router} from "@angular/router";
 export class Lvl4Component implements OnInit {
 
 
-  private number: number = -1;
+  number: number = -1;
 
   constructor(private router: Router) {
   }
