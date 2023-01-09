@@ -7,6 +7,7 @@ import {Lvl2Component} from "./lvl2/lvl2.component";
 import {Lvl3Component} from "./lvl3/lvl3.component";
 import {Lvl4Component} from "./lvl4/lvl4.component";
 import {Lvl5Component} from "./lvl5/lvl5.component";
+import { PuzzleComponent } from './puzzle/puzzle.component';
 
 const routes: Routes = [{path: 'play', component: PlayComponent},
   {path: '', component: HomeComponent},
@@ -15,6 +16,8 @@ const routes: Routes = [{path: 'play', component: PlayComponent},
   {path: 'lvl-3', component: Lvl3Component},
   {path: 'lvl-4', component: Lvl4Component},
   {path: 'lvl-5', component: Lvl5Component},
+  {path: 'puzzle', component: PuzzleComponent
+  }
 ];
 
 @NgModule({
