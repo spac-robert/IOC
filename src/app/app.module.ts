@@ -11,6 +11,7 @@ import {Lvl3Component} from './lvl3/lvl3.component';
 import {Lvl4Component} from './lvl4/lvl4.component';
 import {Lvl5Component} from './lvl5/lvl5.component';
 import { PuzzleComponent } from './puzzle/puzzle.component';
+import { PuzzleLvl2Component } from './puzzle-lvl2/puzzle-lvl2.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { PuzzleComponent } from './puzzle/puzzle.component';
     Lvl4Component,
     Lvl5Component,
     PuzzleComponent,
+    PuzzleLvl2Component,
   ],
   imports: [
     BrowserModule,

@@ -60,7 +60,7 @@ export class PuzzleComponent implements OnInit {
         }
 
         setTimeout(() => {
-          this.router.navigate(['/puzzle']);
+          this.router.navigate(['/puzzle-lvl2']);
         }, 3500);
     }
 
