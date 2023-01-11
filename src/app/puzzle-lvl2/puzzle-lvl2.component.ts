@@ -34,9 +34,9 @@ export class PuzzleLvl2Component implements OnInit {
         } else {
           audio.src = '../assets/sounds/siu.mp3';
         }
-        setTimeout(() => {
-          this.router.navigate(['/play']);
-        }, 3500);
+        // setTimeout(() => {
+        //   this.router.navigate(['/play']);
+        // }, 3500);
         break;
 
       case 2:
