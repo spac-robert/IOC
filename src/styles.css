@@ -6,11 +6,11 @@ html{
   color: black;
   text-align: center;
 }
-img{
+/* img{
   width: 250px;
   height: 300px;
   border-radius: 1rem;
-}
+} */
 button{
   border-radius: 1rem;
 }
